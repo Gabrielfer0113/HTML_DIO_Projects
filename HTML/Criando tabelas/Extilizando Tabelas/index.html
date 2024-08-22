@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table thead th {
+            background-color: black;
+            color: white;
+        }
+        table tbody tr:nth-child(even) td{
+            background-color: #f1f1f1;
+        }
+        table tfoot td {
+            background-color: lightgray;
+        }
+        table tbody tr:hover td{
+            background-color: #e9e9e9;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <tbody>
+    <table align="center" width="250" cellspacing="0" cellpadding="5">
+        <thead>    
+            <tr>
+                <th title="Nome">Nome</th>
+                <th title="Idade">Idade</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Gabriel</td>
+                <td>18</td>
+            </tr>
+            <tr>
+                <td>Emilly</td>
+                <td>18</td>
+            </tr>
+            <tr>
+                <td>Isaias</td>
+                <td>26</td>
+            </tr>
+            <tr>
+                <td>Venancio</td>
+                <td>25</td>
+            </tr>
+            <tr>
+                <td>Giovana</td>
+                <td>18</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Total de nomes</th>
+                <th> Total de idades</th>
+            </tr>
+            <tr>
+                <td>Qtd: 5</td>
+                <td>Qtd: 123</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>

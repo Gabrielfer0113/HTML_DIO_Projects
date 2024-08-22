@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .row{
+            margin: 10px;
+        }
+        label{
+            width: 100px;
+            text-align: right;
+            display: inline-block;
+            padding-right: 5px;
+        }
+        fieldset{
+            border-radius: 10px;
+            margin: 10px;
+        }
+    </style>
+</head>
+    <body>
+        <fieldset>
+            <legend>Dados</legend>
+            <div class="row">
+                <label>Nome:</label><input type="text">
+                <label>Idade:</label><input type="date">
+            </div>
+        </fieldset>  
+        <fieldset>
+            <legend>Contato</legend>
+            <div class="row">
+                <label>E-mail:</label><input type="email">
+                <label>Numero:</label><input type="number">
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Cidade</legend>
+                <div class="row">   
+                    <label>Estado:</label>
+                        <select name="State">
+                            <option value="São Paulo">São Paulo</option>
+                            <option value="Rio de Janeiro">Rio de Janeiro</option>
+                            <option value="Para">Para</option>
+                            <option value="Bahia">Bahia</option>
+                            <option value="Mato Grosso do Sul">Mato Grosso do Sul</option>
+                            <option value="Mato Grosso">Mato Grosso</option>
+                            <option value="Parana">Parana</option>
+                            <option value="Goias">Goias</option>
+                            <option value="Ceará">Ceará</option>
+                            <option value="Paraiba">Paraiba</option>
+                            <option value="Piaui">Piaui</option>
+                            <option value="Rio Grande do Norte">Rio Grande do Norte</option>
+                            <option value="Sergipe">Sergipe</option>
+                            <option value="Pernanbuco">Pernanbuco</option>
+                            <option value="Amapá">Amapá</option>
+                            <option value="Amazonas">Amazonas</option>
+                            <option value="Rondônia">Rondônia</option>
+                            <option value="Roraima">Roraima</option>
+                            <option value="Tocantins">Tocantins</option>
+                            <option value="Espirito Santo">Espirito Santo</option>
+                            <option value="Minas Gerais">Minas Gerais</option>
+                            <option value="Parana">Parana</option>
+                            <option value="Rio Grande do Sul">Rio Grande do Sul</option>
+                            <option value="Santa Catarina">Santa Catarina</option>
+                            <option value="Alagoas">Alagoas</option>
+                        </select>
+                </div>
+        </fieldset>
+        <p>
+            A tag "fieldset" coloca um contorno ao redor da parte selecionada, e a tag "legend" deixa escrever encima
+        </p>
+    </body>
+</html>
