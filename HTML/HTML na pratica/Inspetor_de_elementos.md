@@ -1,1 +1,0 @@
- - Para abrir a inspeção basta apertar as teclas "Ctrl, Shift, I"
