@@ -41,6 +41,8 @@
 |----------------|-------|
 |<.audio><./audio>|\|Essa tag é usado para colocar audios mp3 no seu web site|
 |<.source/>|\|É uma tag filha da tag "audio"|
+|<.q></.q>|\|É um blockquote só q usado para pequenas citações|
+||\||
 ||\||
 
 |Atributo de Tags|Exemplo|
@@ -81,10 +83,14 @@
 |rows=""|\|Ele define a quantidade de linhas a tag <.textarea></.textarea> vai ter|
 |cols=""|\|Ele define a quantidade de colunas a tag <.textarea></.textarea> vai ter|
 |controls|É usado dentro da tag "audio", serve para colocar controles no audio|
+|cite=""|\|Usado no blockquote e no Q para fazer uma citação de onde esta vindo a informação da citação, essa informação apareceria somente no código do programa|
+|required|\|É um comando para preenchimento de formularios, serve para deixar aquele campo obrigatório para ser respondido|
+|autofocus|\|Em um campo de preenchimento de formulario esse comando ja deixa selecionado a area para escrita|
+|maxlength(só funciona no textarea)|\|Coloca um limite de caracteres na pagina|
+|minlength|\|Colocar uma quantidade minima de caracteres|
 ||\||
 ||\||
-
-
+||\||
 
 
 
